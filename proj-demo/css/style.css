@@ -1,0 +1,757 @@
+* {
+    font-style: normal;
+}
+/* page index */
+/* section one */
+.navbar-toggler-edit {
+    background-color: #87bc3d;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+.navbar-toggler-edit .fa-angle-double-up {
+    color: #ffffff;
+    font-size: 20px;
+}
+.navbar-toggler-edit .fa-angle-double-down {
+    color: #ffffff;
+    font-size: 20px;
+}
+.titleIndex {
+    color: #929292; 
+    font-size: 15px;
+    padding: 25px;
+    letter-spacing: 3px;
+}
+.imageIndex {
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+.contentIndex {
+    letter-spacing: 6px;
+    text-align: center;
+    color: #929292; 
+}
+.boxImageIndex {
+    padding: 15px;
+    text-align: right;
+    margin-top: 5px;
+}
+.boxImageIndex > a {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 5px;
+}
+.boxImageIndex > a:hover {
+    cursor: pointer;
+    box-shadow: 0 0 4px #929292,
+                0 0 4px #929292,
+                0 0 4px #929292,
+                0 0 4px #929292;
+    transition: all .3s ease-in-out;
+}
+.navbarMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 0;
+    width: 100%;
+}
+.navbarMenu > li {
+    padding: 14px 0;
+}
+.navbarMenu > li > a {
+    padding: 15px 25px;
+    text-decoration: none;
+    color: #929292;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.navbarMenu > li > a:hover {
+    color: #252525;
+    font-weight: 400;
+    transition: all .3s ease-in-out;
+}
+/* section two */
+.BannerImage-index {
+    background-image: url("https://i.ibb.co/CzC38G7/banner-Image.jpg");
+    background-size: cover;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 60vh;
+    position: relative;
+}
+.BannerImage-index .boxBannerContent {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.BannerImage-index .boxBannerContent > h1 {
+    font-size: 49px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+}
+.BannerImage-index .boxBannerContent > p {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+}
+.BannerImage-index .boxBannerContenttwo {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 58%;
+}
+.BannerImage-index .boxBannerContenttwo .boxContentIndex > p {
+    text-align: center;
+    padding: 15px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+#btnGetStarted {
+    display: block;
+    margin: auto;
+    color: #000000;
+    font-size: 16px;
+    text-transform: capitalize;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: #b4dc2d;
+    padding: 5px 25px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+/* section three */
+.boxPad-index {
+    padding: 55px 45px;
+}
+.boxCard-index {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 20px;
+    box-shadow: 0 0 5px #efefef,
+                0 0 5px #efefef,
+                0 0 5px #efefef,
+                0 0 5px #efefef;
+    position: relative;
+}
+.boxCard-index .contentCard {
+    margin-left: 15px;
+}
+.boxCard-index .contentCard > h4 {
+    font-size: 38px;
+    font-weight: bold;
+    color: #000000;
+}
+.boxCard-index .contentCard > p {
+    font-size: 16px;
+    color: #a6a6a6;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+#imgSumIcon {
+    position: absolute;
+    right: 0;
+    top: 80%;
+    transform: translate(45%, 10%);
+}
+/* section four */
+.boxPadBor-index {
+    padding-bottom: 55px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.titleQuestion-index {
+    font-size: 38px;
+    color: #737373;
+}
+.titleQuestion-index > p {
+    font-size: 38px;
+    color: #737373;
+}
+#imgRightBig {
+    width: 100%;
+    height: auto;
+}
+#imgRightSmall {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    left: -60px;
+    bottom: 0;
+}
+.navLink {
+    padding: 15px 0;
+    border-bottom: 2px solid #cccccc;
+}
+.navLink .fa-angle-right {
+    color: #cccccc;
+    font-size: 20px;
+}
+.navLink > a {
+    text-transform: capitalize;
+    color: #000000;
+    font-size: 28px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.navLink > a:hover {
+    color: #a6a6a6;
+    transition: all .3s ease-in-out;
+}
+/* section five */
+.titleBlog {
+    color: #737373;
+    font-size: 38px;
+    font-weight: 400;
+    padding: 55px 0 0 25px;
+}
+.titleBlog > p {
+    color: #737373;
+    font-size: 38px;
+}
+#btnReadBlog {
+    background-color: #b4dc2d;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 15px 25px;
+    display: block;
+    margin-right: auto;
+    border: none;
+    outline: none;
+    margin-top: 55px;
+}
+#btnReadBlog:hover {
+    background-color: #b8fa03;
+    box-shadow: 0 0 5px #d8d8d8,
+                0 0 5px #d8d8d8,
+                0 0 5px #d8d8d8,
+                0 0 5px #d8d8d8;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+.boxCardAdvertisement-index {
+    position: relative;
+    margin-top: 45px;
+}
+.boxCardAdvertisement-index > img {
+    width: 100%;
+}
+.boxCardAdvertisement-index .boxContent-index > h4 {
+    margin-top: 25px;
+    font-size: 30px;
+    color: #000000;
+}
+.boxCardAdvertisement-index .boxContent-index > p {
+    margin-top: 25px;
+    color: #797979;
+    font-size: 16px;
+}
+#btnMore {
+    background-color: #b4dc2d;
+    font-size: 18px;
+    color: #000000;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    padding: 5px 25px;
+    font-weight: 400;
+    margin-top: 28px;
+}
+#btnMore:hover {
+    background-color: #b9f006;
+    color: #ffffff;
+}
+.boxBorAdvertisement {
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 45px;
+}
+.boxTitleAdvertisement {
+    background-color: #000000;
+    padding: 10px 15px;
+    position: absolute;
+    top: 2%;
+    left: 0;
+}
+.boxTitleAdvertisement > span {
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.boxCardAdvertisementRight-index {
+    position: relative;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.boxCardAdvertisementRight-index > img {
+    width: 100%;
+}
+.boxTitleAdvertisementRight {
+    background-color: #000000;
+    padding: 10px 30px;
+    position: absolute;
+    top: 14%;
+    left: 0;
+}
+.boxTitleAdvertisementRight > span {
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.boxCardAdvertisementRight-index .boxContentRight-index {
+    margin-left: 15px;
+}
+.boxContentRight-index > h4 {
+    color: #000000;
+    font-size: 24px;
+}
+.boxContentRight-index > p {
+    margin-top: 25px;
+    color: #797979;
+    font-size: 16px;
+    font-weight: 400;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.boxImageGird {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 0;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.boxImageGird .boxGrid > img {
+    width: 100%;
+    height: 350px;
+}
+.boxGrid:hover .boxHoverImage-one {
+    opacity: 0.8;
+    transition: all .5s ease-in-out;
+}
+.boxGrid:hover .boxHoverImage-two {
+    opacity: 0.8;
+    transition: all .5s ease-in-out;
+}
+.boxGrid:hover .boxHoverImage-three {
+    opacity: 0.8;
+    transition: all .5s ease-in-out;
+}
+.boxGrid:hover .boxHoverImage-four {
+    opacity: 0.8;
+    transition: all .5s ease-in-out;
+}
+.boxHoverImage-one {
+    background-color: #100c0a;
+    width: 25%;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.boxHoverImage-one > p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    border-bottom: 0;
+    width: calc(100% - 99px);
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+}
+.boxHoverImage-two {
+    background-color: #100c0a;
+    width: 25%;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+.boxHoverImage-two > p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    border-bottom: 0;
+    width: calc(100% - 99px);
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+}
+.boxHoverImage-three {
+    background-color: #100c0a;
+    width: 25%;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+.boxHoverImage-three > p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    border-bottom: 0;
+    width: calc(100% - 99px);
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+}
+.boxHoverImage-four {
+    background-color: #100c0a;
+    width: 25%;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+.boxHoverImage-four > p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    border-bottom: 0;
+    width: calc(100% - 99px);
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+}
+#btnCreate {
+    background-color: #000000;
+    padding: 25px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: none;
+    outline: none;
+}
+#btnCreate:hover {
+    background-color: #737373;
+    transition: all .3s ease-in-out;
+}
+#btnCreate > img {
+    width: 100%;
+}
+.boxFormMail-index {
+    padding: 40px;
+    border: 1px solid #d2d2d2;
+    margin: 35px;
+}
+.titleForm-index {
+    font-size: 38px;
+    color: #4c4c4c;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.boxFormEmail-index {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+#inEmail {
+    outline: none;
+    border: 1px solid #d2d2d2;
+    padding: 15px 25px;
+    width: 100%;
+    font-style: italic;
+}
+#btnSubscribe {
+    padding: 16px;
+    border: none;
+    outline: none;
+    background-color: #000000;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#btnSubscribe:hover {
+    background-color: #c5c0c0;
+    color: #3f3f3f;
+    transition: all .3s ease-in-out;
+}
+/* footer */
+.girdFooter {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 0;
+    margin-top: 100px;
+}
+.boxFormFooterLeft-index {
+    border: 1px solid #cccccc;
+    padding: 65px 60px;
+}
+.boxFormFooterLeft-index > p {
+    margin-top: 35px;
+    color: #a6a6a6;
+    font-size: 16px;
+}
+.boxFormRightFooter-index {
+    border: 1px solid #cccccc;
+    padding: 65px 14px;
+}
+.titleFormFooter {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.boxMenuFooter {
+    margin-top: 35px;
+}
+.boxMenuFooter > p {
+    margin-bottom: 0;
+}
+.boxMenuFooter > p > a {
+    text-decoration: none;
+    color: #c0c0c0;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.boxMenuFooter > p > a:hover {
+    color: #000000;
+    transition: all .3s ease-in-out;
+}
+.imageFooterEnd {
+    background-image: url("https://i.ibb.co/ryKK4ZW/img-Footer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-attachment: local;
+    width: 100%;
+    height: 85px;
+    position: relative;
+}
+.imageFooterEnd > p {
+    position: absolute;
+    left: 15%;
+    top: 33%;
+    transform: translate(25%, 20%);
+    margin-bottom: 0;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.imageFooterEnd > p > .titleFooterOne {
+    text-decoration: none;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 2px 0;
+}
+.imageFooterEnd > p > .titleFooterOne:hover {
+    color: #b4dc2d;
+    border-bottom: 1px solid #b4dc2d;
+    transition: all .3s ease-in-out;
+}
+.imageFooterEnd > p > .titleFooterTwo {
+    text-decoration: none;
+    border-bottom: 1px solid #87bc3d;
+    color: #87bc3d;
+    padding: 2px 0;
+}
+.imageFooterEnd > p > .titleFooterTwo:hover {
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    transition: all .3s ease-in-out;
+}
+/* page service */
+.BannerImage-allPage {
+    background-image: url("https://i.ibb.co/CzC38G7/banner-Image.jpg");
+    background-size: cover;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vh;
+    position: relative;
+}
+.BannerImage-allPage .boxBannerContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.BannerImage-allPage .boxBannerContent > h1 {
+    font-size: 49px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+}
+.BannerImage-allPage .boxBannerContent > p {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+}
+.titleServices {
+    color: #4c4c4c;
+    font-size: 38px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+.boxCard-service {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 20px;
+    box-shadow: 0 0 5px #efefef,
+                0 0 5px #efefef,
+                0 0 5px #efefef,
+                0 0 5px #efefef;
+    position: relative;
+    margin-top: 30px;
+}
+.boxCard-service .contentCard {
+    margin-left: 15px;
+}
+.boxCard-service .contentCard > h4 {
+    font-size: 38px;
+    font-weight: bold;
+    color: #000000;
+}
+.boxCard-service .contentCard > p {
+    font-size: 16px;
+    color: #a6a6a6;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+.img-service {
+    width: 100%;
+}
+.contentOne {
+    color: #505050;
+    font-size: 16px;
+    font-weight: 500;
+}
+.contentTwo {
+    color: #bfbfbf;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+/* page porfolio */
+.title-porfolio {
+    color: #4c4c4c;
+    font-size: 38px;
+    padding: 70px 90px;
+    font-weight: 400;
+    border-bottom: 2px dotted #d3d3d3;
+}
+.boxImageGird-service {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 0;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+.boxImageGird-service .boxGrid > img {
+    width: 100%;
+    height: 350px;
+}
+/* page contact */
+.title-contact {
+    color: #4c4c4c;
+    font-size: 38px;
+    text-transform: capitalize;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+.content-contact {
+    color: #505050;
+    font-size: 16px;
+    font-weight: 400;
+}
+.boxForm-contact {
+    padding: 25px 250px;
+}
+#input-contact {
+    width: 100%;
+    font-style: italic;
+    font-size: 13px;
+    padding: 10px 15px;
+    border: 1px solid #909090;
+    outline: none;
+    margin-top: 25px;
+}
+#input-contact:focus {
+    color: #000000;
+    border: 1px solid #b8fa03;
+    font-style: unset;
+}
+#btnSubmitContact {
+    display: block;
+    margin: auto;
+    margin-top: 35px;
+    padding: 15px 35px;
+    border: none;
+    outline: none;
+    background-color: #000000;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#btnSubmitContact:hover {
+    background: linear-gradient(to right ,#dfdede, #8a8989);
+    transition: all .3s ease-in-out;
+}
+/* page blog */
+.title-blog {
+    margin-top: 35px;
+    margin-bottom: 25px;
+    padding: 20px 35px;
+    font-size: 38px;
+    color: #737373;
+    font-weight: 500;
+    border-bottom: 1px dotted #d3d3d3;
+}
+.paginationEdit-blog {
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.page-linkEdit-blog {
+    border-radius: 50%;
+    background-color: #363636;
+    color: #ffffff;
+    font-size: 16px;
+    outline: none;
+    border: none;
+}
+.paginationEdit-blog > li > .page-linkEdit-blog {
+    margin-right: 15px;
+}

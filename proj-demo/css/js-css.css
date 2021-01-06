@@ -1,0 +1,13 @@
+.active {
+    background-color: #b4dc2d;
+    color: #ffffff;
+    outline: none;
+    border: none;
+}
+
+.icon-hide {
+    display: none;
+}
+.icon-show {
+    display: block;
+}
